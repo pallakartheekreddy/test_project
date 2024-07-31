@@ -4,8 +4,8 @@
     "@protected": true,
     "type": "@type",
     "schema": "https://schema.org/",
-    "InsuranceCredential": {
-      "@id": "https://pallakartheekreddy.github.io/test_project/educationalcertificate-context.json#EducationalCertificate"
+    "EducationalCredential": {
+      "@id": "https://pallakartheekreddy.github.io/test_project/educationalcertificate-context.json#EducationalCredential"
     },
     "dob": "schema:birthDate",
     "gender": "schema:gender",
