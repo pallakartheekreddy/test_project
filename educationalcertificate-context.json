@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+    "type": "@type",
+    "schema": "https://schema.org/",
+    "InsuranceCredential": {
+      "@id": "https://pallakartheekreddy.github.io/test_project/educationalcertificate-context.json#EducationalCertificate"
+    },
+    "dob": "schema:birthDate",
+    "gender": "schema:gender",
+    "fullName": "schema:name"
+  }
+}
