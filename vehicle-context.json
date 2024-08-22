@@ -1,0 +1,27 @@
+{
+"@context": {
+"@version": 1.1,
+"@protected": true,
+"type": "@type",
+"schema": "https://schema.org/",
+"VehicleInsuranceCredential": {
+"@id": "https://holashchand.github.io/test_project/vehicle-context.json#VehicleInsuranceCredential"
+},
+"email": "schema:email",
+"mobile": "schema:telephone",
+"policyExpiresOn": "schema:expires",
+"policyIssuedOn": "schema:DateTime",
+"invoiceNumber": "schema:Text",
+"registrationAuthority": "schema:Text",
+  "IDV": "schema:Text",
+  "model": "schema:Text",
+  "typeOfBody": "schema:Text",
+  "chasisNumber": "schema:Text",
+  "cubicCapacity": "schema:Text",
+  "registrationNumber": "schema:Text",
+  "fullName": "schema:Text",
+  "dob": "schema:birthDate",
+  "engineNumber": "schema:Text",
+"policyNumber": "schema:Text"
+}
+}

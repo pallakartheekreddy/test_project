@@ -1,0 +1,52 @@
+{
+  "@context": {
+"id": "@id",
+"schema": "https://schema.org/",
+"@version": 1.1,
+"@protected": true,
+"citizen": "https://holashchand.github.io/test_project/citizen_context.json",
+"CitizenshipCredential": {
+"@id": "https://holashchand.github.io/test_project/citizen_context.json#CitizenshipCredential",
+"@context": {
+"id": "@id",
+"@version": 1.1,
+"@protected": true
+}
+},
+"child": {
+"@id": "citizen:child",
+"@context": {
+"full_name": "schema:name",
+"dob": "schema:birthDate",
+"sex": "schema:gender",
+"place_of_birth": "schema:birthPlace",
+"nationality": "schema:nationality"
+}
+},
+"mother": {
+"@id": "citizen:mother",
+"@context": {
+"full_name": "schema:name",
+"dob": "schema:birthDate",
+"nationality": "schema:nationality"
+}
+},
+"father": {
+"@id": "citizen:father",
+"@context": {
+"id": "@id",
+"full_name": "schema:name",
+"dob": "schema:birthDate",
+"nationality": "schema:nationality"
+}
+},
+"registration": {
+"@id": "citizen:registration",
+"@context": {
+"registration_number": "schema:identifier",
+"date_of_registration": "schema:startDate",
+"date_of_issuance": "schema:startDate"
+}
+}
+}
+}
