@@ -1,0 +1,25 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://raw.githubusercontent.com/pallakartheekreddy/test_project/refs/heads/main/insurance-context.json"
+  ],
+  "type": [
+    "VerifiableCredential",
+    "InsuranceCredential"
+  ],
+  "issuanceDate": "${validFrom}",
+  "expirationDate": "${validUntil}",
+  "credentialSubject": {
+    "fullName": "$fullName",
+    "id": "$id",
+    "dob": "$dob",
+    "email": "$email",
+    "gender": "$gender",
+    "mobile": "$mobile",
+    "benefits": "$benefits",
+    "policyExpiresOn": "$policyExpiresOn",
+    "policyIssuedOn": "$policyIssuedOn",
+    "policyName": "$policyName",
+    "policyNumber": "$policyNumber"
+  }
+}
