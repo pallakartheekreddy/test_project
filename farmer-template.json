@@ -6,6 +6,8 @@
     "VerifiableCredential",
     "FarmerCredential"
   ],
+  "issuanceDate": "${validFrom}",                                                                                                                                          │
+  "expirationDate": "${validUntil}",
   "credentialSubject": {
     "name": "$name",
     "id": "$id"
