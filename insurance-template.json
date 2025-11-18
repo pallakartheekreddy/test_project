@@ -16,8 +16,8 @@
     "email": "${email}",
     "gender": "${gender}",
     "mobile": "${mobile}",
-    "policyExpiresOn": "${policyExpiresOn}",
-    "policyIssuedOn": "${policyIssuedOn}",
+    "policyExpiresOn": "2027-11-18T11:53:00.000Z",
+    "policyIssuedOn": "2025-11-18T11:53:00.000Z",
     "policyName": "${policyName}",
     "policyNumber": "${policyNumber}"
   }
