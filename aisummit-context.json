@@ -1,0 +1,18 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "schema": "https://schema.org/",
+        "AISummitCredential": {
+            "@id": "https://pallakartheekreddy.github.io/test_project/ai-summit.json#AISummitCredential",
+            "@context": {
+                "@version": 1.1,
+                "id": "@id",
+                "name": "schema:Text",
+                "image": "schema:Text",
+                "personality": "schema:Text"
+            }
+        }
+    }
+}
