@@ -11,7 +11,8 @@
                 "id": "@id",
                 "name": "schema:Text",
                 "image": "schema:Text",
-                "personality": "schema:Text"
+                "personality": "schema:Text",
+                "date": "schema:Text"
             }
         }
     }
